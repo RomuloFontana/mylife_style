@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center;  
+}
+
+.container1{
+    width:80%;
+    
+}
+
+.container2{
+    width:80%;
+    display:flex;
+    
+}
+
+header div{
+    background-color:rgba(7, 0, 9, 0.998);
+}
+
+.container1 h1 {
+    color:rgb(203, 3, 3);
+    padding:10px;    
+    
+}
+.container1 a{
+    color:rgb(203, 3, 3);
+    text-decoration:none;
+    margin-left:10px;
+
+}
+.container1 a:hover{
+    color:rgb(161, 2, 2);
+}
+
+section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.container2 img, h2, p{
+    margin-top:15px;
+    
+}
+
+body{
+    font-family: 'Teko', sans-serif;
+}
+.container2 p, h1, textarea, input, button {
+    font-family: 'Overpass', sans-serif;
+}
+
+.container2 p, h2{
+    margin-left:5px;
+}
+
+.container2 img{
+    width:20%;
+}
+
+.container3{
+    width:80%;
+}
+
+.container3 img{
+    margin-top:15px;
+    width:20%;
+}
+
+h3{
+    margin-top:10px;
+    text-align:center;
+}
+
+form textarea{
+    resize:none;
+    height:150px;
+    width:173px;
+}
+
+.container3 li{
+    list-style: none;
+    width:25%;
+}
+
+.container3 div{
+    display:flex;
+}
+
+.container3, input, textarea{
+    margin-top:2px;
+    
+}
+
+form button{
+    background-color:black;
+    color:red;
+    cursor:pointer;
+    padding:2px;
+    margin-bottom:3px;
+    width:173px;
+    
+}
+
+form button:hover{
+    background-color: rgb(49, 48, 48);
+}
+
+footer{
+    color:rgb(203, 3, 3);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(255, 0, 0);
+}
+
+#foot{
+    background-color:black;
+    text-align:center;
+}
+#eegg{
+    color:black;
+    font-family: 'Overpass', sans-serif;
+    text-decoration: double;
+}
+
